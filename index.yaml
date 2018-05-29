@@ -1,16 +1,10 @@
 apiVersion: v1
 entries:
   cerebro:
-  - created: 2018-05-29T13:50:41.380986259+02:00
+  - created: 2018-05-29T13:52:28.439517154+02:00
     digest: 2948c2c65c7d1e8e6770465bf2599a61cb60920a4fece8849910bb3114a3e98c
     name: cerebro
     urls:
     - cerebro-0.0.2.tgz
     version: 0.0.2
-  - created: 2018-05-29T13:50:41.380679503+02:00
-    digest: 3167a937b844dfecf726c10402188ec1deddcd48a59ecd99dde993f7d19e048c
-    name: cerebro
-    urls:
-    - cerebro-0.0.1.tgz
-    version: 0.0.1
-generated: 2018-05-29T13:50:41.38021133+02:00
+generated: 2018-05-29T13:52:28.439078623+02:00
