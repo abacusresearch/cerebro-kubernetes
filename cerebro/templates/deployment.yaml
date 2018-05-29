@@ -50,6 +50,6 @@ spec:
           configMap:
             name: {{ template "name" . }}-configmap
             items:
-              - key: {{ .Values.configMap.configFile }}
+              - key: cerebro.conf
                 path: cerebro.conf
 {{- end }}

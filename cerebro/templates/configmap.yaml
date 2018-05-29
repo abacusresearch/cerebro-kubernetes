@@ -4,5 +4,6 @@ kind: ConfigMap
 metadata:
   name: {{ template "name" . }}-configmap
 data:
-{{ (.Files.Glob (print  "configs/" .Values.configMap.configFile ) ).AsConfig | indent 2 }}
+  cerebro.conf: |-
+    {{ .Values.configMap.configFile }}
 {{- end }}
