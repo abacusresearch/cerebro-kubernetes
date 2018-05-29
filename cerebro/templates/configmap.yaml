@@ -5,5 +5,5 @@ metadata:
   name: {{ template "name" . }}-configmap
 data:
   cerebro.conf: |-
-    {{ .Values.configMap.configFile }}
+    {{ .Values.configMap.configFile | indent 4 }}
 {{- end }}
